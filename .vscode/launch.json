@@ -1,0 +1,22 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+    {
+        "name": "Launch Chrome",
+        "request": "launch",
+        "type": "pwa-chrome",
+        "url": "http://localhost:8080",
+        "webRoot": "${workspaceFolder}"
+    },
+    {
+        "name": "Run Android on emulator",
+        "type": "cordova",
+        "request": "launch",
+        "platform": "android",
+        "target": "Nexus_5X_API_29_x86",
+        "port": 9222,
+        "sourceMaps": true,
+        "cwd": "${workspaceFolder}"
+    }
+    ]
+}
